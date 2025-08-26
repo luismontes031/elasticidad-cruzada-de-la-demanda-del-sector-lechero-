@@ -1,95 +1,82 @@
-# elasticidad-cruzada-de-la-demanda-del-sector-lechero-
+# Análisis del Mercado Lechero en Colombia (2020–2022)
 
-# Elasticidad Cruzada en el Sector Lácteo Colombiano (2020–2022)
+## 📌 Introducción
+Entre 2020 y 2022, el mercado de la leche en Colombia experimentó cambios significativos debido a diversos factores que afectaron tanto la producción como el consumo.  
+Aunque existieron varios factores en el alza de los costos de producción de leche líquida —mayoritariamente a los pequeños productores campesinos colombianos— en el último trimestre de 2021 y en 2022, la producción se contrajo un **5,1%** debido al incremento en los costos de producción.  
 
-##  Introducción
-Entre 2020 y 2022, el mercado de la leche en Colombia experimentó cambios significativos debido a factores externos que afectaron tanto la producción como el consumo.  
-Los pequeños productores campesinos fueron los más afectados por el incremento de los costos, lo que llevó a una contracción de la producción del **5,1%** en 2022.  
+Factores que influyeron en esto:
+- Crisis logística global  
+- Conflicto entre Rusia y Ucrania  
+- Tasa de cambio  
+- Condiciones climáticas  
 
-**Factores principales que incidieron:**
-- Crisis logística global (post-Covid).  
-- Conflicto Rusia–Ucrania.  
-- Tasa de cambio desfavorable.  
-- Condiciones climáticas.  
+### 📊 Precios y consumo
+El precio de la leche presentó incrementos significativos:  
+- En diciembre de 2021, el precio nacional se ubicó en **$1.625** para la región 1 y **$1.478** para la región 2.  
+- Para abril de 2022, estos precios aumentaron a **$1.977** y **$1.720** respectivamente.  
 
-**Precios y consumo:**
-- Diciembre 2021: $1.625 (Región 1) y $1.478 (Región 2).  
-- Abril 2022: $1.977 (Región 1) y $1.720 (Región 2).  
-- Consumo per cápita pasó de **162 litros (2021)** a **154 litros (2022)** → caída del **4,9%**.  
-
-##  Importaciones de leche en polvo
-- **2020**: 32.763 t → USD 84 M.  
-- **2021**: 24.771 t → USD 65,3 M.  
-- **2022**: 72.589 t → USD 276,67 M (máximos históricos, +52% en valor vs 2021).  
-
-El aumento de importaciones agravó la crisis del sector lechero colombiano.
+Estos aumentos contribuyeron a una disminución en el **consumo per cápita de leche**, que pasó de **162 litros anuales por persona en 2021** a **154 litros en 2022**, representando una caída del **4,9%**.  
 
 ---
 
-##  Problema identificado
-Los microempresarios campesinos del sector lechero atribuyen la crisis a la **competencia de la leche en polvo importada**, que presiona los precios a la baja y reduce la demanda de leche líquida.
+## 📦 Importación de leche en polvo (2020–2022)
+
+**2020**  
+- Se importaron **32.763 toneladas** de leche en polvo descremada, con un valor superior a **USD 84 millones**.  
+- De este total, **26.640 toneladas** provinieron de Estados Unidos, representando un costo de más de **USD 67,5 millones**.  
+
+**2021**  
+- Hasta octubre, las importaciones alcanzaron **24.771 toneladas**, con un valor que superó los **USD 65,3 millones**.  
+- De estas, **20.806 toneladas** fueron originarias de Estados Unidos, con un costo cercano a **USD 52,8 millones**.  
+
+**2022**  
+- Al finalizar el año, ingresaron al país **72.589 toneladas** de productos lácteos por un valor de **USD 276,67 millones**.  
+- Esto representó un **incremento del 19,5% en volumen** y del **52% en valor** en comparación con 2021.  
+- Este aumento hizo que las importaciones lácteas de 2022 fueran las más costosas en la historia del país.  
 
 ---
 
-##  Pregunta de investigación
-¿La leche en polvo en Colombia actúa como un **bien complementario** de la leche líquida (UHT), o como un **bien sustituto**?
+## 🚨 Identificación del problema
+**Crisis del sector lechero en Colombia (2020–2022):**  
+Los microempresarios, mayoritariamente campesinos del sector lechero, manifiestan que la crisis del mercado se debe principalmente a las **importaciones de leche en polvo**.  
 
 ---
 
-##  Metodología
-- Modelo econométrico **log-log** con **Mínimos Cuadrados Ordinarios (MCO)**.  
-- Variables:
-  - Cantidad demandada de leche en polvo (kg).  
-  - Cantidad demandada de leche líquida UHT (litros).  
-  - Precios mensuales de ambos productos (2020–2022).  
-- Software: **R**.  
+## ❓ Pregunta / Hipótesis
+**Pregunta:**  
+¿El mercado de leche en polvo frente al mercado de leche líquida (UHT) está actuando como un bien complementario o como un bien sustituto?  
+
+**Hipótesis:**  
+El mercado de leche en polvo y el de leche líquida se analizarán mediante un modelo log-log para determinar si son **sustitutos o complementarios**.  
 
 ---
 
-##  Resultados principales
+## 📐 Propuesta de análisis
+Se plantea la creación de un **modelo log-log de elasticidad cruzada** para el sector lechero colombiano.  
+Este modelo calcula el logaritmo de la variable dependiente (Y) y el logaritmo de la variable independiente (X), generando una estimación con el **modelo de Mínimos Cuadrados Ordinarios (OLS)**.  
 
-### 1. Elasticidad precio leche líquida (UHT)
-- Coeficiente estimado: **0,5671**.  
-- p-valor < 0,05 → estadísticamente significativo.  
-- Bien **inelástico**: cambios de precio afectan poco la demanda.  
-- Coincide con la teoría: es un bien de primera necesidad.  
+El objetivo es identificar cómo cambia Y (variable dependiente) en términos porcentuales respecto a X (variable independiente), y analizar su efecto en el mercado.  
 
-### 2. Elasticidad cruzada (leche en polvo vs leche líquida)
-- Signo del coeficiente: **positivo**.  
-- Interpretación: **bienes sustitutos**.  
-- Evidencia empírica: al subir el precio de la leche líquida, aumenta la demanda de leche en polvo.  
-- Esto respalda lo denunciado por campesinos: la leche en polvo **sustituye** la leche líquida.  
-
-### 3. Elasticidad precio leche en polvo
-- Coeficiente estimado > 1 (valor absoluto).  
-- Bien **elástico**: la demanda responde fuertemente a variaciones de precio.  
+Los datos incluyen:  
+- Cantidad demandada mensual de leche en polvo entera (kg).  
+- Cantidad demandada mensual de leche líquida UHT (litros).  
+- Precios totales por mes (2020–2022).  
 
 ---
 
-##  Conclusiones
-- La producción de leche líquida cayó **5,1%** en 2022 por mayores costos.  
-- El consumo per cápita bajó de 162 a 154 litros (-4,9%).  
-- Las importaciones de leche en polvo se dispararon en 2022 (+52% en valor), desplazando la producción nacional.  
-- La leche líquida es un bien **inelástico**, pero en la práctica fue sustituida por leche en polvo debido a:
-  - Precio más bajo.  
-  - Mayor durabilidad y facilidad logística.  
-- Se confirma que **leche en polvo y leche líquida son bienes sustitutos en el mercado colombiano**.  
+## 🛠️ Método para solución del problema
+Mediante el software **R**, se construyen varios modelos log-log para:  
+- Analizar la elasticidad propia de la demanda de leche en polvo y leche líquida.  
+- Estimar la **elasticidad cruzada de la demanda**, que mide cómo la cantidad demandada de un bien responde al cambio de precio de otro.  
+
+Esto permitirá identificar si la leche en polvo y la leche líquida son bienes **sustitutos** (elasticidad cruzada positiva) o **complementarios** (elasticidad cruzada negativa).  
 
 ---
 
-##  Propuesta económica
-1. **Agroindustrialización nacional**: transformar excedentes de leche líquida en leche en polvo local.  
-2. **Reducción de dependencia de importaciones**, especialmente en contextos de inestabilidad geopolítica.  
-3. **Política comercial coherente**: articular seguridad alimentaria, protección al campesino y soberanía productiva.  
-4. **Fortalecimiento de cadenas de valor**: conectar producción local con la industria láctea y exportaciones.  
-
----
-
-##  Relevancia para consultoría agroindustrial
-Este análisis de elasticidad cruzada permite:
-- Identificar la relación competitiva entre leche líquida y en polvo.  
-- Entender la dinámica de sustitución en escenarios de crisis.  
-- Diseñar estrategias de política pública y decisiones privadas para proteger al productor nacional.  
+### 🔹 Ejemplo de modelado
+1. Modelar el **logaritmo de la cantidad demandada de leche entera líquida** en función del **logaritmo del precio de la leche entera** para todos los meses.  
+   - Esto refleja qué tipo de elasticidad tiene este bien.  
+![primer modelo](imagenes/elasti5.png)
 
 ---
 ✍️ **Autor**: [Luis Alberto Sánchez Montes]  
