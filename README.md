@@ -76,7 +76,7 @@ Esto permitirá identificar si la leche en polvo y la leche líquida son bienes 
 ### 🔹 Ejemplo de modelado
 1. Modelar el **logaritmo de la cantidad demandada de leche entera líquida** en función del **logaritmo del precio de la leche entera** para todos los meses.  
    - Esto refleja qué tipo de elasticidad tiene este bien.  
-![Elasticidad 1](imagenes/eslasticidad1.png)
+![eslasticidad1](imagenes/eslasticidad1.png)
 
 ---
 ✍️ **Autor**: [Luis Alberto Sánchez Montes]  
