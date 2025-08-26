@@ -75,8 +75,85 @@ Esto permitirá identificar si la leche en polvo y la leche líquida son bienes 
 
 ### 🔹 Ejemplo de modelado
 1. Modelar el **logaritmo de la cantidad demandada de leche entera líquida** en función del **logaritmo del precio de la leche entera** para todos los meses.  
-   - Esto refleja qué tipo de elasticidad tiene este bien.  
+   - Esto refleja qué tipo de elasticidad tiene este bien.
+   - 
 ![eslasticidad](elasticidad.png)
+
+## Interpretación del Modelo
+
+Para saberlo nos fijamos en los resultados del modelo de la variable **precios**:  
+- El **p-valor** es menor a `0.05`, lo que indica que el resultado es **significativo**.  
+- Esto confirma que los **precios afectan la demanda** de un bien, tal como lo establece la teoría.  
+
+Ahora, observamos su **coeficiente estimado** con un valor de `0.5671`:  
+- Al ser **menor que 1**, se clasifica como un **bien inelástico**.  
+- Esto significa que si el **precio del bien aumenta**, la **demanda no cambiará mucho**.  
+- Este resultado está asociado a que la **leche es un bien principal** dentro de la canasta familiar.
+
+![elasticidad](eslasticidad.png)
+
+Ahora nos centraremos en analizar, por medio de la **elasticidad cruzada**, si realmente la **leche en polvo** es un **bien complementario** frente a la **leche líquida**, o si en este caso la **leche en polvo está sustituyendo a la leche líquida**.  
+
+Tal como lo afirman los **campesinos**, la disminución en ventas es el motivo de sus **protestas** y de que se haya llegado incluso a **derramar la leche al suelo**.  
+
+Lo que en principio se suele pensar es que sean **bienes complementarios**, ya que:  
+- La **leche en polvo** se utiliza en diferentes tipos de **industrias**,  
+- Es **duradera** y no requiere **refrigeración**,  
+
+Mientras que:  
+- El **consumo de leche líquida** es el **ideal para el consumo instantáneo**,  
+- Es más valorada en **familias y cafeterías**,  
+- Y su **sabor es mejor**.
+
+![elasticidad](elasticidad2.png)  
+
+![elasticidad](eslasticidad3.png)
+
+Según los resultados, se verifica en el **coeficiente estimado de precios cruzados** para determinar si los productos son **sustitutos** o **complementarios**:  
+
+- Si el resultado es **negativo**, se clasifican como **bienes complementarios**.  
+- Si el resultado es **positivo**, se clasifican como **bienes sustitutos**.  
+
+En este caso:  
+- El **p–valor** es relevante para el modelo, lo que respalda la validez del resultado.  
+- El **coeficiente estimado es positivo**, lo que indica que la **leche en polvo está sustituyendo a la leche líquida**.  
+- En otras palabras, cuando **suben los precios de la leche líquida**, los consumidores prefieren **comprar leche en polvo**.
+- 
+- 3.Modelamos primero logaritmo de leche en polvo demandada con logaritmo del precio de la leche en polvo para todos los meses, para reflejar que tipo de elasticidad tiene este tipo de bien.
+
+![elasticidad](elsticidad%5.png)
+
+![elasticidad](elasti5.png)
+
+## Elasticidad Precio y Conclusiones del Modelo
+
+El resultado del **coeficiente estimado** y su **p-valor**, que demuestra relevancia en el modelo, indica que en términos absolutos su valor es **mayor a 1**.  
+Esto significa que la leche se comporta como un **bien elástico**, es decir, si su **precio cambia**, la **demanda probablemente cambiará** en mayor proporción.
+
+---
+
+## Conclusiones
+
+- Aunque existieron varios factores en el alza de los costos de producción de la **leche líquida** —afectando mayoritariamente a los **pequeños productores campesinos colombianos**— en el último trimestre de 2021 y en 2022, la producción se **contrajo un 5,1%**.  
+- Este descenso estuvo asociado al **incremento en los costos de producción** y provocó un **aumento en los precios**, lo cual contribuyó a una **disminución en el consumo per cápita de leche**.  
+- El problema se agravó en 2022, ya que al finalizar el año ingresaron al país **72.589 toneladas de productos lácteos** por un valor de **USD 276,67 millones**, lo que representó un incremento de **19,5% en volumen** y de **52% en valor** en comparación con 2021.  
+- Este aumento hizo que las **importaciones lácteas de 2022 fueran las más costosas en la historia del país**.  
+- Factores externos como **guerras, fenómenos climáticos, problemas logísticos por el Covid-19, aumento de los precios internacionales y mayor importación de leche en polvo y derivados**, afectaron negativamente las ventas de los **pequeños lecheros**.  
+- Esto generó **grandes pérdidas, altos precios en la leche líquida** y llevó a que muchas empresas y familias optaran por **sustituir la leche líquida por leche en polvo**, más barata y duradera.  
+- Aunque la teoría indica que la **leche líquida es un bien inelástico**, en este caso, por los factores externos, se **reemplazó por leche en polvo**.
+
+---
+
+## Propuesta Económica
+
+El sector lechero en Colombia debe **agroindustrializarse** para:  
+- Obtener **mayor producción de leche en polvo** y **reducir la dependencia de importaciones**,  
+- Fortalecerse frente a una **geopolítica inestable** donde los precios internacionales pueden subir,  
+- Aprovechar la buena producción de **leche líquida en el país** mediante **logística y almacenamiento**,  
+- Procesar los **excedentes de producción** en leche en polvo para **fortalecer las cadenas del mercado** y beneficiar a todos los actores.  
+
+La crisis de los campesinos refleja una **desconexión entre la política comercial, la seguridad alimentaria, la soberanía productiva y la estructura de mercado**.  
+Aunque Colombia produce leche suficiente, sin **políticas de protección e inclusión**, los pequeños productores seguirán quedando excluidos.
 
 ---
 ✍️ **Autor**: [Luis Alberto Sánchez Montes]  
