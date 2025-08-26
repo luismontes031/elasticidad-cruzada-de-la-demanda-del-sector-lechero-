@@ -90,7 +90,7 @@ Ahora, observamos su **coeficiente estimado** con un valor de `0.5671`:
 - Esto significa que si el **precio del bien aumenta**, la **demanda no cambiará mucho**.  
 - Este resultado está asociado a que la **leche es un bien principal** dentro de la canasta familiar.
 
-![elasticidad](eslasticidad.png)
+![elasticidad](eslasticidad1.png)
 
 Ahora nos centraremos en analizar, por medio de la **elasticidad cruzada**, si realmente la **leche en polvo** es un **bien complementario** frente a la **leche líquida**, o si en este caso la **leche en polvo está sustituyendo a la leche líquida**.  
 
@@ -105,9 +105,9 @@ Mientras que:
 - Es más valorada en **familias y cafeterías**,  
 - Y su **sabor es mejor**.
 
-![elasticidad](elasticidad2.png)  
+![elasticidad3](elasticidad2.png)  
 
-![elasticidad](eslasticidad3.png)
+![elasticidad4](eslasticidad3.png)
 
 Según los resultados, se verifica en el **coeficiente estimado de precios cruzados** para determinar si los productos son **sustitutos** o **complementarios**:  
 
