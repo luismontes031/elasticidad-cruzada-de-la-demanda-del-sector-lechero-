@@ -123,12 +123,10 @@ En este caso:
 
 ![elasticidad](elsticidad%5.png)
 
-![elasticidad](elasti5.png)
+![elasticidad](elsticidad%205.png)
 
-## Elasticidad Precio y Conclusiones del Modelo
 
-El resultado del **coeficiente estimado** y su **p-valor**, que demuestra relevancia en el modelo, indica que en términos absolutos su valor es **mayor a 1**.  
-Esto significa que la leche se comporta como un **bien elástico**, es decir, si su **precio cambia**, la **demanda probablemente cambiará** en mayor proporción.
+
 
 ---
 
