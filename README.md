@@ -123,7 +123,7 @@ En este caso:
 
 ![elasticidad](elsticidad5.png)
 
-![elasticidad](elasti.png)
+![elasticidad](elasti5.png)
 
 
 ## Conclusiones
