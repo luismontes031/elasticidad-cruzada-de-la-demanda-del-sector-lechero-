@@ -121,9 +121,9 @@ En este caso:
 - 
 - 3.Modelamos primero logaritmo de leche en polvo demandada con logaritmo del precio de la leche en polvo para todos los meses, para reflejar que tipo de elasticidad tiene este tipo de bien.
 
-![elasticidad](elsticidad%5.png)
-
 ![elasticidad](elsticidad5.png)
+
+![elasticidad](elasti.png)
 
 
 ## Conclusiones
